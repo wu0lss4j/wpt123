@@ -65,7 +65,7 @@ paginate = 5
 [languages]
   [languages.en]
     languageName = "English"
-    title = "my-hugo-site"
+    title = "Terminal"
     subtitle = "A simple, retro theme for Hugo"
     owner = ""
     keywords = ""
@@ -81,7 +81,7 @@ paginate = 5
     words = "words"
 
     [languages.en.params.logo]
-      logoText = "Terminal"
+      logoText = "my-hugo-site"
       logoHomeLink = "/"
 
     [languages.en.menu]
