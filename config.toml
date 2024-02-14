@@ -3,7 +3,7 @@ languageCode = "en-us"
 # Add it only if you keep the theme in the `themes` directory.
 # Remove it if you use the theme as a remote Hugo Module.
 theme = "terminal"
-paginate = 5
+paginate = 10
 
 [params]
   # dir name of your main content (default is `content/posts`).
@@ -48,18 +48,18 @@ paginate = 5
 
   # whether to show a table of contents
   # can be overridden in a page's front-matter
-  # Toc = false # default
+  Toc = true # default
 
   # set title for the table of contents
   # can be overridden in a page's front-matter
-  # TocTitle = "Table of Contents" # default
+  TocTitle = "Table of Contents" # default
 
 
 [params.twitter]
   # set Twitter handles for Twitter cards
   # see https://developer.twitter.com/en/docs/tweets/optimize-with-cards/guides/getting-started#card-and-content-attribution
   # do not include @
-  creator = ""
+  creator = "bruno"
   site = ""
 
 [languages]
@@ -80,19 +80,19 @@ paginate = 5
     minuteReadingTime = "min read"
     words = "words"
 
-    [languages.en.params.logo]
+  [languages.en.params.logo]
       logoText = "my-hugo-site"
       logoHomeLink = "/"
 
-    [languages.en.menu]
-      [[languages.en.menu.main]]
-        identifier = "about"
-        name = "About"
-        url = "/about"
-      [[languages.en.menu.main]]
-        identifier = "showcase"
-        name = "Showcase"
-        url = "/showcase"
+  [languages.en.menu]
+    [[languages.en.menu.main]]
+      identifier = "about"
+      name = "About"
+      url = "/about"
+	[[languages.en.menu.main]]
+      identifier = "showcase"
+      name = "Showcase"
+      url = "/showcase"
 
 [module]
   # In case you would like to make changes to the theme and keep it locally in you repository,

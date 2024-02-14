@@ -1,4 +1,4 @@
 baseURL = 'https://term.lencastre.net/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Testing this static website generator thingy...'
 theme = 'terminal'
